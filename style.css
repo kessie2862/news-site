@@ -665,10 +665,10 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
     flex-direction: column;
   }
 
-  .trend-icon-swipe {
+  /* .trend-icon-swipe {
     background: blue;
     color: white;
-  }
+  } */
 
   .trend-icon-swipe span {
     display: inline;
@@ -686,18 +686,18 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 }
 
 /* Screens 400px and bigger */
-/* @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
   body {
     background: rgb(223, 73, 4);
   }
 
   .container {
-    width: var(--container-width-tablet);
-  }
-
-  .content-container {
     width: var(--container-width-phone);
   }
-} */
+
+  /* .content-container {
+    width: var(--content-container-width-phone);
+  } */
+}
 
 /* MEDIA QUERIES ENDS */
