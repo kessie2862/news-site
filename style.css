@@ -55,10 +55,10 @@ body {
   /* height: 500px; */
 }
 
-.content-container {
+/* .content-container {
   width: var(--content-container-width);
   margin: 0 auto;
-}
+} */
 
 .section-title {
   font-weight: 500;
