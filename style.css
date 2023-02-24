@@ -176,7 +176,6 @@ nav {
   gap: 0.5rem;
   height: 25rem;
   width: var(--content-container-width);
-  background: grey;
 }
 
 ljasfhhakfsghskafsafghska sajdfsdhghlasghasdjgasdkasg {
@@ -274,6 +273,8 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 .global-news {
   /* background: greenyellow; */
   display: grid;
+  align-items: center;
+  margin: auto;
   grid-template-columns: 2fr 1fr;
   gap: 1.5rem;
   height: auto;
