@@ -686,18 +686,18 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 }
 
 /* Screens 400px and bigger */
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   body {
     background: rgb(223, 73, 4);
   }
 
-  /* .container {
+  .container {
     width: var(--container-width-tablet);
-  } */
+  }
 
   .content-container {
     width: var(--container-width-phone);
   }
-}
+} */
 
 /* MEDIA QUERIES ENDS */
