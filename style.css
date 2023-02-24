@@ -55,10 +55,10 @@ body {
   /* height: 500px; */
 }
 
-/* .content-container {
+.content-container {
   width: var(--content-container-width);
   margin: 0 auto;
-} */
+}
 
 .section-title {
   font-weight: 500;
@@ -591,10 +591,6 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 /* MEDIA QUERIES STARTS */
 /* Devices 1200px or bigger */
 @media screen and (max-width: 1200px) {
-  /* body {
-    background: red;
-  } */
-
   .section-title {
     font-weight: 500;
     font-size: 0.9rem;
@@ -615,14 +611,8 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 
 /* Devices 1000px or bigger */
 @media screen and (max-width: 1000px) {
-  /* body {
-    background: green;
-  } */
-
   .global-news {
-    /* background: greenyellow; */
     grid-template-columns: 1fr;
-    /* gap: 1.5rem; */
   }
 
   .global-content .left p {
@@ -658,18 +648,9 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 
 /* Screens 800px and bigger */
 @media screen and (max-width: 800px) {
-  /* body {
-    background: indigo;
-  } */
-
   .trending .trend-content {
     flex-direction: column;
   }
-
-  /* .trend-icon-swipe {
-    background: blue;
-    color: white;
-  } */
 
   .trend-icon-swipe span {
     display: inline;
@@ -688,12 +669,12 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 
 /* Screens 400px and bigger */
 @media screen and (max-width: 400px) {
-  /* body {
-    background: rgb(223, 73, 4);
-  } */
-
   nav {
     display: none;
+  }
+
+  .container {
+    width: var(--container-width-phone);
   }
   /* 
   .container {
