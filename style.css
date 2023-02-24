@@ -696,12 +696,12 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
   }
 
   .container {
-    width: var(--container-width-phone);
+    width: 100%;
   }
 
-  /* .content-container {
-    width: var(--content-container-width-phone);
-  } */
+  .content-container {
+    width: 100%;
+  }
 }
 
 /* MEDIA QUERIES ENDS */
