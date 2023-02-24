@@ -590,9 +590,9 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 /* MEDIA QUERIES STARTS */
 /* Devices 1200px or bigger */
 @media screen and (max-width: 1200px) {
-  body {
+  /* body {
     background: red;
-  }
+  } */
 
   .section-title {
     font-weight: 500;
@@ -614,9 +614,9 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 
 /* Devices 1000px or bigger */
 @media screen and (max-width: 1000px) {
-  body {
+  /* body {
     background: green;
-  }
+  } */
 
   .global-news {
     /* background: greenyellow; */
