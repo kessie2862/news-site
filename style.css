@@ -44,7 +44,6 @@ body {
   color: var(--color-dark);
   line-height: 1.7;
   background: #ffffff;
-  overflow: hidden;
 }
 
 .container {
@@ -658,9 +657,9 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 
 /* Screens 800px and bigger */
 @media screen and (max-width: 800px) {
-  body {
+  /* body {
     background: indigo;
-  }
+  } */
 
   .trending .trend-content {
     flex-direction: column;
@@ -688,14 +687,14 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
 
 /* Screens 400px and bigger */
 @media screen and (max-width: 400px) {
-  body {
+  /* body {
     background: rgb(223, 73, 4);
-  }
+  } */
 
   nav {
     display: none;
   }
-
+  /* 
   .container {
     width: 100%;
   }
@@ -703,7 +702,7 @@ kjahkjfahgfkhagfhagfyyfh ahskfhafgakhfgakhfahaha {
   .content-container {
     width: 90%;
     margin: 0 auto;
-  }
+  } */
 }
 
 /* MEDIA QUERIES ENDS */
